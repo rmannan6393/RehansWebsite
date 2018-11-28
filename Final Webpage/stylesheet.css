@@ -1,0 +1,209 @@
+
+body {
+	max-width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+
+	background: black;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: #0E5D96;
+}
+
+a:visited{
+	color: #0E5D96;
+}
+
+img{
+	width: 100%;
+	display: block
+
+}
+
+p{
+	text-align: justify;
+
+	line-height: 1.5;
+}
+
+.textDiv{
+	margin: 48px;
+
+	color: white;
+}
+
+.imgDiv{
+	margin: 7%;
+	width: 86%; 
+
+	background: white;
+}
+
+#LogoDiv{
+
+	height: 190px;
+	width: 100%;
+	margin-top: -1px;
+	padding-top: 1px; 
+
+	background-color: black;
+}
+
+#Logo{
+	width: auto;
+
+	margin-left: 40px;
+	margin-top: 72px; 
+}
+
+#Navbar{
+	height: 75px;
+	width: 100%;
+
+	background-color: black;
+	color: white;
+
+
+}
+
+#MainDiv{
+	min-height: 536.396px;
+	width: 100%;
+	overflow-y: hidden;
+	padding-bottom: 6.29%;
+
+	background: #0E5D96;
+
+
+}
+
+.Columns{
+	height: auto;
+	width: 45.5%;
+
+	float: left;
+
+	background-color: #1A3C6E;
+
+
+    margin-left: 3%;
+    margin-top: 4.943%;
+
+    border-radius: 25px;
+
+}
+
+#Grid{
+	height: inherit;
+	width: inherit;
+
+	padding-top: 1px;
+	margin-top: -1px;
+}
+
+
+.Cell{
+	width: 20%;
+
+	margin-top: 4%;
+	margin-left: 4%;
+
+	float: left;
+}
+
+.Cell .ProjectIcon:hover{
+	border-radius: 25px;
+
+    filter: brightness(.5);
+
+	transition: .2s;
+
+	overflow: hidden;
+}
+
+.Caption{
+	margin: 0;
+
+	padding: 8px;
+
+	background: #1A3C6E;
+
+	text-align: center;
+
+	color: white;
+}
+
+.ProjectIcon {
+	background: white;
+	transition: .2s;
+}
+
+#ResumeIcon{
+	background: none;
+	transition: .2s;
+}
+
+#ResumeCell #ResumeIcon:hover{
+	border-radius: 25px;
+
+    filter: brightness(.5);
+
+	transition: .2s;
+
+	overflow: hidden;
+
+}
+
+#Disclaimer{
+	opacity: .5;
+
+	position: relative;
+	top: -163px;
+
+	height: 0px
+}
+
+ul{
+	height: inherit;
+	list-style: none;
+
+	margin: 0;
+	padding-left: 40px;
+
+	font-style: italic;
+
+}
+
+li{
+	padding-top: 29px;
+
+
+	display: inline-block;
+	float: left;
+
+}
+
+li a{
+	padding: 29px;
+	width: inherit;
+
+	border-radius: 10px 10px 0 0; 
+
+	text-decoration: none;
+
+	transition: 1s;
+
+}
+
+
+li :hover{
+	background-color: #1A3C6E;
+	color: white;
+
+	transition: 0.2s;
+}
