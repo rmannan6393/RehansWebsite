@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+
+	<link rel="shortcut icon"  href="imgs/logo_FSk_icon.ico">
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+
+<body>
+
+	<div id="LogoDiv">
+		<img id="Logo" src="imgs/Logo3.png">
+	</div>
+
+	<div id="Navbar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Projects.html">Projects</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<div id="MainDiv">
+
+		<div class="Columns">
+			<div class="imgDiv">
+				<img id="gif" src="imgs/MMP 100 project animation gif.gif">
+
+			<video id="video" controls="">
+				<source src="imgs/MMP 100 project animation.mp4" type="video/mp4">
+			</video>
+			</div>
+
+			<button onclick="changeCode()">w/SFX</button>
+
+			<script type="text/javascript">
+				var isGif = true;
+
+				function changeCode(){
+					if(isGif == true){
+						document.getElementById('gif').style.display = "none";
+						document.getElementById('video').style.display = "block";
+						isGif = false;
+					}
+					else{
+						document.getElementById('gif').style.display = "block";
+						document.getElementById('video').style.display = "none";
+						isGif = true;
+					}
+				}
+			</script>
+
+		</div>
+
+		<div class="Columns">
+			<div class="textDiv">
+				<h1>Animation Project</h1>
+				<p>This is a clip of an animation I made for multimedia class with the help of a classmate. This was a part of an animation project in which we were instructed to make a film representing a certain cause. The cause that we chose was the "Fight Hunger" movement. What's shown here is my portion of the animation. The full animation can be seen <a href="https://www.youtube.com/watch?v=oklDzrOJ_8c">here</a>.
+			</p>
+			</div>
+		</div>
+
+	</div>
+
+
+
+</body>
+</html>
