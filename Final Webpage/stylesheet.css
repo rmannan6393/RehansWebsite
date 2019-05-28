@@ -24,6 +24,10 @@ img{
 	display: block
 
 }
+video{
+	width: 100%;
+	display: none;
+}
 
 p{
 	text-align: justify;
